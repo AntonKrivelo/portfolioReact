@@ -22,6 +22,10 @@ const ProjectItem = () => {
                         <img src={iconGit} alt="gitIcon" />
                         GitHub Repositories
                     </a>}
+                    <br></br>
+                    <a className="btn-outline" href={project.projectSite}>
+                        Project Site
+                    </a>
                 </div>
             </div>
         </main>
